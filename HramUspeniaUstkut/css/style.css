@@ -563,7 +563,7 @@ strong {
 }
 
 .view.promo_2 {
-  background-image: url("img/background-timetable.jpg");
+  background-image: url("../img/background-timetable.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -593,7 +593,7 @@ strong {
   }
 }
 .view.promo_3 {
-  background-image: url("img/background-live-cerch.jpg");
+  background-image: url("../img/background-live-cerch.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -623,7 +623,7 @@ strong {
   }
 }
 .view.promo_4 {
-  background-image: url("img/77 Усть-Кут Освящение Престола.jpg");
+  background-image: url("../img/77 Усть-Кут Освящение Престола.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -700,7 +700,7 @@ td:nth-child(2) {
 }
 
 .backgroand-syte-timetable {
-  background-image: url(img/background-timetable.jpg);
+  background-image: url(../img/background-timetable.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
