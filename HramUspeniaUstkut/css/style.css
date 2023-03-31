@@ -160,7 +160,7 @@ body header .container-nav-back {
   background-color: #5a6586;
 }
 body header .view {
-  background-image: url("img/Promo-backgroand.jpg");
+  background-image: url("../img/Promo-backgroand.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
