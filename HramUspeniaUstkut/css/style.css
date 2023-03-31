@@ -2040,7 +2040,7 @@ body .backgroand-syte .opacyti-body main .holy {
   overflow: hidden;
 }
 body .backgroand-syte .opacyti-body main .holy .gates-1 {
-  content: url("img/Rez/Hram_1.jpg");
+  content: url("../img/Rez/Hram_1.jpg");
   width: 33%;
   padding: 2px 2px 2px 0;
   margin: 0px;
@@ -2048,7 +2048,7 @@ body .backgroand-syte .opacyti-body main .holy .gates-1 {
   height: 100%;
 }
 body .backgroand-syte .opacyti-body main .holy .gates-2 {
-  content: url("img/Rez/Hram_2.jpg");
+  content: url("../img/Rez/Hram_2.jpg");
   width: 33%;
   padding: 2px;
   margin: 0px;
@@ -2056,7 +2056,7 @@ body .backgroand-syte .opacyti-body main .holy .gates-2 {
   height: 100%;
 }
 body .backgroand-syte .opacyti-body main .holy .gates-3 {
-  content: url("img/Rez/Hram_3.jpg");
+  content: url("../img/Rez/Hram_3.jpg");
   width: 33%;
   padding: 2px 2px 0 2px;
   margin: 0px;
