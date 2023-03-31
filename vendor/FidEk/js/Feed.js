@@ -1,1 +1,0 @@
-$("#divFeed").FeedEk({FeedUrl:"http://pravbratsk.ru/feed/",MaxCount:5,ShowDesc:!0,ShowPubDate:!0,DescCharacterLimit:300,TitleLinkTarget:"_blank",DateFormat:"",DateFormatLang:"ru",Offset:0,ShowAuthor:!1,AuthorLabel:"Автор:",Success:function(e){},Error:function(e){}});

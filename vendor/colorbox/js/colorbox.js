@@ -1,1 +1,0 @@
-$(".group").colorbox({rel:"group",slidewshow:!0,transition:"fade",with:"90%",height:"90%"}),$(".colorbox").colorbox({transition:"fade",with:"90%",height:"90%"});

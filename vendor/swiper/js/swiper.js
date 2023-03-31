@@ -1,1 +1,0 @@
-new Swiper(".image-slider",{navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},pagination:{el:".swiper-pagination",clickable:!0,dynamicBullets:!0},keyboard:{enabled:!0,onlyInViewport:!0,pageUpDown:!0},slidesPerView:3,spacebetween:30,breakpoints:{320:{slidesPerView:1},480:{slidesPerView:2},992:{slidesPerView:3}}});
