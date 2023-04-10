@@ -2116,7 +2116,7 @@ body .backgroand-syte .opacyti-body main .container-image-history_1:hover {
     padding-left: 50px;
   }
   .container-width .swiper-button-prev, .container-width .swiper-button-next {
-    margin-top: calc(575px - var(--swiper-navigation-size) / 2);
+    margin-top: calc(820px - var(--swiper-navigation-size) / 2);
   }
 }
 @media (max-width: 992px) {
@@ -2126,7 +2126,7 @@ body .backgroand-syte .opacyti-body main .container-image-history_1:hover {
     padding: 0 10px;
   }
   .container-width .swiper-button-prev, .container-width .swiper-button-next {
-    margin-top: calc(725px - var(--swiper-navigation-size) / 2);
+    margin-top: calc(875px - var(--swiper-navigation-size) / 2);
   }
   .body.lock {
     overflow: hidden;
