@@ -2239,6 +2239,8 @@ body .backgroand-syte .opacyti-body main .container-image-history_1:hover {
 }
 
 .container-slider {
+  width: 80%;
+  margin: 0 auto;
   margin-bottom: 50px;
   overflow: hidden;
 }
