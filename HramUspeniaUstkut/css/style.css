@@ -2046,9 +2046,9 @@ body .backgroand-syte .opacyti-body main .holy {
 body .backgroand-syte .opacyti-body main .holy .gates-1 {
   content: url("../img/Rez/Hram_1.jpg");
   width: 33%;
-  padding: 2px 2px 2px 0;
+  padding: 2px 2px 2px 2px;
   margin: 0px;
-  margin-top: -250px;
+  margin-top: -200px;
   height: 100%;
 }
 body .backgroand-syte .opacyti-body main .holy .gates-2 {
@@ -2056,7 +2056,7 @@ body .backgroand-syte .opacyti-body main .holy .gates-2 {
   width: 33%;
   padding: 2px;
   margin: 0px;
-  margin-top: -250px;
+  margin-top: -200px;
   height: 100%;
 }
 body .backgroand-syte .opacyti-body main .holy .gates-3 {
@@ -2064,7 +2064,7 @@ body .backgroand-syte .opacyti-body main .holy .gates-3 {
   width: 33%;
   padding: 2px 2px 0 2px;
   margin: 0px;
-  margin-top: -250px;
+  margin-top: -200px;
   height: 100%;
 }
 body .backgroand-syte .opacyti-body main .lorem {
@@ -2102,6 +2102,9 @@ body .backgroand-syte .opacyti-body main .container-image-history_1:hover {
   }
 }
 @media (max-width: 1200px) {
+  body .backgroand-syte .opacyti-body main .holy {
+    display: none;
+  }
   .container-width {
     max-width: 970px;
     margin: 0px auto;
