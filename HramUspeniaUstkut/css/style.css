@@ -315,6 +315,7 @@ body header .view .opacyti-body .cerch-name {
   margin-right: 62px;
 }
 .page-footer .container-width .page-footer-content .page-footer-section .page-footer-menu h6 {
+  white-space: nowrap;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
@@ -324,6 +325,9 @@ body header .view .opacyti-body .cerch-name {
 }
 .page-footer .container-width .page-footer-content .page-footer-section .page-footer-menu p a {
   color: #1a0dab;
+}
+.page-footer .container-width .page-footer-content .page-footer-section .page-footer-menu .wrap-p {
+  white-space: normal;
 }
 .page-footer .container-width .image-messenger {
   margin-bottom: 30px;
