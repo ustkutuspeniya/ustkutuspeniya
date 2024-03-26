@@ -1916,6 +1916,29 @@ swiper-container .swiper-notification {
   overflow: hidden;
 }
 
+.ceremonies-list .block-sacrament {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ceremonies-list .block-sacrament .item-img {
+  margin-top: 50px;
+  position: relative;
+  margin-bottom: 100px;
+  overflow: hidden;
+  max-width: 300px;
+  max-height: 400px;
+}
+.ceremonies-list .block-sacrament .item-img .img-sacrament {
+  width: 100%;
+}
+.ceremonies-list .block-sacrament .item-body .description {
+  padding-left: 50px;
+}
+.ceremonies-list .block-sacrament .item-body .description .rich-text {
+  text-align: left;
+}
+
 /*font-family: 'Cormorant Infant', serif;
 font-family: 'Hind Madurai', sans-serif;
 font-family: 'Lora', serif;
