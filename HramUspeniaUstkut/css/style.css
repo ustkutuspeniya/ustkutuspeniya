@@ -2109,6 +2109,12 @@ body .backgroand-syte .opacyti-body main .lorem {
   font-size: x-large;
   padding-top: 100px;
   padding-bottom: 100px;
+  text-align: justify;
+}
+body .backgroand-syte .opacyti-body main .lorem p {
+  text-indent: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 body .backgroand-syte .opacyti-body main .container-image-history_1 {
   position: absolute;
