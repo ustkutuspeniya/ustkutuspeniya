@@ -2118,16 +2118,25 @@ body .backgroand-syte .opacyti-body main .lorem p {
 }
 body .backgroand-syte .opacyti-body main .container-image-history_1 {
   position: absolute;
-  max-width: 350px;
+  width: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
-  left: -30px;
   opacity: 20%;
 }
 body .backgroand-syte .opacyti-body main .container-image-history_1 .image-history_1 {
-  width: 100%;
+  position: absolute;
+  left: 50px;
+  max-width: 250px;
   -webkit-transform: rotate(-10deg);
           transform: rotate(-10deg);
+}
+body .backgroand-syte .opacyti-body main .container-image-history_1 .image-history_2 {
+  position: absolute;
+  max-width: 250px;
+  -webkit-transform: rotate(11deg);
+          transform: rotate(11deg);
+  right: 50px;
+  bottom: -610px;
 }
 body .backgroand-syte .opacyti-body main .container-image-history_1:hover {
   opacity: 100%;
