@@ -2120,25 +2120,32 @@ body .backgroand-syte .opacyti-body main .container-image-history_1 {
   position: absolute;
   width: 100%;
   padding-top: 100px;
-  padding-bottom: 100px;
   opacity: 20%;
 }
 body .backgroand-syte .opacyti-body main .container-image-history_1 .image-history_1 {
   position: absolute;
   left: 50px;
-  max-width: 250px;
+  max-width: 20%;
   -webkit-transform: rotate(-10deg);
           transform: rotate(-10deg);
 }
-body .backgroand-syte .opacyti-body main .container-image-history_1 .image-history_2 {
+body .backgroand-syte .opacyti-body main .container-image-history_2 {
   position: absolute;
-  max-width: 250px;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  opacity: 20%;
+}
+body .backgroand-syte .opacyti-body main .container-image-history_2 .image-history_2 {
+  position: absolute;
+  max-width: 20%;
   -webkit-transform: rotate(11deg);
           transform: rotate(11deg);
   right: 50px;
   bottom: -610px;
 }
-body .backgroand-syte .opacyti-body main .container-image-history_1:hover {
+body .backgroand-syte .opacyti-body main .container-image-history_1:hover,
+body .backgroand-syte .opacyti-body main .container-image-history_2:hover {
   opacity: 100%;
   -webkit-animation: view-opacity-container-image-history_1 1.5s forwards;
           animation: view-opacity-container-image-history_1 1.5s forwards;
