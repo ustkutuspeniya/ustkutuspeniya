@@ -1998,7 +1998,7 @@ body {
   width: 100%;
   font-size: 100%;
   line-height: 1;
-  font-size: 14px;
+  font-size: 15px;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -2130,6 +2130,17 @@ body .backgroand-syte .opacyti-body main .lorem {
   text-align: justify;
 }
 body .backgroand-syte .opacyti-body main .lorem p {
+  text-indent: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+body .backgroand-syte .opacyti-body main .lorem-center {
+  font-size: x-large;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+body .backgroand-syte .opacyti-body main .lorem-center p {
   text-indent: 2em;
   margin-top: 1em;
   margin-bottom: 1em;
