@@ -1916,27 +1916,45 @@ swiper-container .swiper-notification {
   overflow: hidden;
 }
 
+.ceremonies-list h3 {
+  font-size: xx-large;
+  padding-bottom: 50px;
+}
 .ceremonies-list .block-sacrament {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .ceremonies-list .block-sacrament .item-img {
-  margin-top: 50px;
+  margin-top: 0;
   position: relative;
   margin-bottom: 100px;
   overflow: hidden;
-  max-width: 300px;
-  max-height: 400px;
+  max-width: 400px;
+  min-width: 200px;
 }
 .ceremonies-list .block-sacrament .item-img .img-sacrament {
+  border-radius: 2%;
   width: 100%;
+  border: 3px solid #55adbd;
+  -webkit-box-shadow: 2px 1px 5px #999999;
+          box-shadow: 2px 1px 5px #999999;
+}
+.ceremonies-list .block-sacrament .item-body {
+  margin-top: 0;
 }
 .ceremonies-list .block-sacrament .item-body .description {
   padding-left: 50px;
+  padding-right: 50px;
+  max-width: 880px;
+  min-width: 420px;
+  margin-top: 0;
 }
 .ceremonies-list .block-sacrament .item-body .description .rich-text {
   text-align: left;
+  font-size: x-large;
 }
 
 /*font-family: 'Cormorant Infant', serif;
@@ -2043,7 +2061,7 @@ body {
   color: #678574;
   font-weight: 300;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 2.5;
   text-align: left;
 }
 body .backgroand-syte {
