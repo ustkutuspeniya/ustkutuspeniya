@@ -396,7 +396,7 @@ body header .view .opacyti-body .cerch-name {
   margin-left: 40px;
   text-align: left;
   font-size: 20px;
-  line-height: 2vw;
+  line-height: 2.5rem;
 }
 .container-clergy .container-clergy-content ul li {
   list-style-type: square;
@@ -2124,6 +2124,8 @@ body .backgroand-syte .opacyti-body main .holy .gates-3 {
   height: 100%;
 }
 body .backgroand-syte .opacyti-body main .lorem {
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: x-large;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -2365,6 +2367,7 @@ body .backgroand-syte .opacyti-body main .container-image-history_2:hover {
 
 .map {
   max-width: 1400px;
+  min-width: 420px;
   max-height: 700px;
   background: #333;
   width: 1400px;
