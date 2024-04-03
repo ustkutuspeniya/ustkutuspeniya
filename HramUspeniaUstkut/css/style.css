@@ -323,10 +323,11 @@ body header .view .opacyti-body .cerch-name {
   margin: 50px 0;
   width: 50%;
   min-width: 400px;
+  padding-right: 20px;
 }
 .page-footer .container-width .page-footer-content .page-footer-section .page-footer-menu {
   margin-top: 0;
-  min-width: 186px;
+  min-width: 180px;
 }
 .page-footer .container-width .page-footer-content .page-footer-section .page-footer-menu h6 {
   white-space: nowrap;
@@ -2293,6 +2294,10 @@ body .backgroand-syte .opacyti-body main .container-image-history_2:hover {
   }
 }
 @media (max-width: 480px) {
+  body .backgroand-syte .opacyti-body main .lorem {
+    font-size: large;
+    line-height: 2;
+  }
   body .backgroand-syte .opacyti-body main .container-image-history_1 .image-history_1 {
     left: 20px;
     max-width: 40%;
