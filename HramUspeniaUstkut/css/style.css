@@ -445,12 +445,15 @@ strong {
   margin-bottom: 15px;
 }
 .container-contacts .adres {
+  margin-top: 0px;
   width: 33%;
 }
 .container-contacts .rezim {
+  margin-top: 0px;
   width: 33%;
 }
 .container-contacts .telefon {
+  margin-top: 0px;
   width: 33%;
 }
 
@@ -2215,6 +2218,14 @@ body .backgroand-syte .opacyti-body main .container-image-history_2:hover {
   .container-width .swiper-button-next {
     margin-top: calc(435px - var(--swiper-navigation-size) / 2);
   }
+  .map {
+    max-width: 1200px;
+    min-width: 420px;
+    max-height: 700px;
+    background: #333;
+    width: 1200px;
+    height: 700px;
+  }
 }
 @media (max-width: 1200px) {
   body .backgroand-syte .opacyti-body main .container-image-history_1 .image-history_1 {
@@ -2240,6 +2251,14 @@ body .backgroand-syte .opacyti-body main .container-image-history_2:hover {
   body .backgroand-syte .opacyti-body main .container-width .swiper-button-next {
     margin-top: calc(820px - var(--swiper-navigation-size) / 2);
   }
+  body .backgroand-syte .opacyti-body main .map {
+    max-width: 1000px;
+    min-width: 420px;
+    max-height: 700px;
+    background: #333;
+    width: 1000px;
+    height: 600px;
+  }
 }
 @media (max-width: 992px) {
   body .backgroand-syte .opacyti-body main .container-image-history_1 .image-history_1 {
@@ -2262,6 +2281,14 @@ body .backgroand-syte .opacyti-body main .container-image-history_2:hover {
   body .backgroand-syte .opacyti-body main .body.lock {
     overflow: hidden;
   }
+  body .backgroand-syte .opacyti-body main .map {
+    max-width: 700px;
+    min-width: 420px;
+    max-height: 700px;
+    background: #333;
+    width: 700px;
+    height: 700px;
+  }
 }
 @media (max-width: 767px) {
   body .backgroand-syte .opacyti-body main .container-image-history_1 .image-history_1 {
@@ -2282,6 +2309,14 @@ body .backgroand-syte .opacyti-body main .container-image-history_2:hover {
   body .backgroand-syte .opacyti-body main .container-width .swiper-button-next,
   body .backgroand-syte .opacyti-body main .container-width .swiper-button-prev {
     display: none;
+  }
+  body .backgroand-syte .opacyti-body main .map {
+    max-width: 500;
+    min-width: 420px;
+    max-height: 700px;
+    background: #333;
+    width: 500px;
+    height: 500px;
   }
   body .backgroand-syte .opacyti-body main .page-footer-section {
     -webkit-box-orient: vertical;
@@ -2306,6 +2341,14 @@ body .backgroand-syte .opacyti-body main .container-image-history_2:hover {
     max-width: 40%;
     top: 2800px;
     right: 20px;
+  }
+  body .backgroand-syte .opacyti-body main .map {
+    max-width: 300px;
+    min-width: 200px;
+    max-height: 200px;
+    background: #333;
+    width: 300px;
+    height: 300px;
   }
 }
 .container-nav._active {
