@@ -156,6 +156,9 @@ body header .container-nav .container-width .navbar .menu li {
 body header .container-nav .container-width .navbar .menu li .menu-link {
   color: rgb(255, 255, 255);
 }
+body header .container-nav .container-width .navbar .menu .lock {
+  display: none;
+}
 body header .container-nav-back {
   background-color: #5a6586;
 }
@@ -273,15 +276,19 @@ body header .view .opacyti-body .cerch-name {
   }
   .body header .container-nav .container-width .navbar .menu {
     display: none;
-    max-width: 50px;
-    margin: 125px auto auto 9%;
-    text-align: left;
+    margin: 125px 50px auto 9%;
+    text-align: right;
   }
   .body header .container-nav .container-width .navbar .menu.collaps {
     display: block;
-    max-width: 50px;
-    margin: 25px auto auto 9%;
-    text-align: left;
+    margin: 25px 50px auto 9%;
+    text-align: right;
+  }
+  .body header .container-nav .container-width .navbar .menu.collaps .lock {
+    display: block;
+  }
+  .body header .container-nav .container-width .navbar .menu.collaps .lock .menu-link {
+    color: #641010;
   }
   .body header .container-nav .container-width .navbar .menu.collaps .menu-link {
     color: rgba(38, 47, 75, 0.9);
@@ -363,8 +370,8 @@ body header .view .opacyti-body .cerch-name {
   font-family: "Lora", serif;
 }
 .footer-copyright .container-fluid {
-  margin-right: 59px;
   text-align: right;
+  margin-right: auto;
 }
 .footer-copyright .container-fluid .footer-logo {
   color: #1a0dab;
@@ -376,6 +383,7 @@ body header .view .opacyti-body .cerch-name {
   }
   .footer-copyright .container-fluid {
     margin-right: auto;
+    text-align: center;
   }
 }
 .name-clergy {
@@ -2476,10 +2484,4 @@ body .backgroand-syte .opacyti-body main .container-image-history_2:hover {
   background: #333;
   width: 1400px;
   height: 700px;
-}
-
-@media (max-width: 420px) {
-  #colorbox {
-    max-width: none;
-  }
 }
