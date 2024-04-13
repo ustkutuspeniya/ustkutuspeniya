@@ -386,6 +386,22 @@ body header .view .opacyti-body .cerch-name {
     text-align: center;
   }
 }
+@media (max-width: 420px) {
+  .page-footer .container-width .page-footer-content .page-footer-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    min-width: unset;
+    padding-right: 20px;
+    margin: 0 0 0 0;
+  }
+  .page-footer .container-width .page-footer-content .page-footer-section .page-footer-menu {
+    margin-bottom: 50px;
+  }
+}
 .name-clergy {
   margin-top: 40px;
   font-size: 25px;
