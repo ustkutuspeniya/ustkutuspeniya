@@ -402,6 +402,15 @@ body header .view .opacyti-body .cerch-name {
     margin-bottom: 50px;
   }
 }
+.container-requisites {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.container-requisites .container-requisites-nested {
+  width: 33%;
+}
+
 .name-clergy {
   margin-top: 40px;
   font-size: 25px;
