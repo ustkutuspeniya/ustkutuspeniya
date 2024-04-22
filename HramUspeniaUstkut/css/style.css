@@ -402,13 +402,31 @@ body header .view .opacyti-body .cerch-name {
     margin-bottom: 50px;
   }
 }
+main h3 {
+  font-size: x-large;
+  margin-bottom: 40px;
+}
+
 .container-requisites {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
 }
 .container-requisites .container-requisites-nested {
   width: 33%;
+  min-width: 300px;
+  margin-top: 30px;
+}
+.container-requisites .container-requisites-nested h6 {
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: large;
+}
+.container-requisites .container-requisites-nested p {
+  font-size: 20px;
 }
 
 .name-clergy {
