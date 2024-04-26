@@ -402,6 +402,45 @@ body header .view .opacyti-body .cerch-name {
     margin-bottom: 50px;
   }
 }
+main h3 {
+  font-size: x-large;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+main .container-charity {
+  margin-bottom: 120px;
+  margin-top: 0px;
+}
+
+.container-requisites {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.container-requisites .container-requisites-nested {
+  width: 33%;
+  min-width: 300px;
+  margin-top: 30px;
+}
+.container-requisites .container-requisites-nested h6 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: large;
+}
+.container-requisites .container-requisites-nested p {
+  font-size: 19px;
+}
+.container-requisites .container-requisites-nested .p-just {
+  text-align: justify;
+  -ms-hyphens: auto;
+      hyphens: auto;
+}
+
 .name-clergy {
   margin-top: 40px;
   font-size: 25px;
@@ -461,7 +500,9 @@ strong {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 60px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 30px;
   margin-top: 60px;
 }
 .container-contacts h6 {
@@ -471,14 +512,20 @@ strong {
 .container-contacts .adres {
   margin-top: 0px;
   width: 33%;
+  min-width: 180px;
+  margin-bottom: 30px;
 }
 .container-contacts .rezim {
   margin-top: 0px;
   width: 33%;
+  min-width: 180px;
+  margin-bottom: 30px;
 }
 .container-contacts .telefon {
   margin-top: 0px;
   width: 33%;
+  min-width: 180px;
+  margin-bottom: 30px;
 }
 
 .view.submenu_1 .opacyti-body .container-width {
@@ -501,9 +548,7 @@ strong {
   color: white;
   border: 1px solid;
   padding: 20px;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 50px;
-          flex: 0 1 50px;
+  width: 280px;
   white-space: nowrap;
   font-family: "Lora", serif;
 }
@@ -528,9 +573,7 @@ strong {
   color: white;
   border: 1px solid;
   padding: 20px;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 50px;
-          flex: 0 1 50px;
+  width: 420px;
   white-space: nowrap;
   font-family: "Lora", serif;
 }
@@ -555,9 +598,7 @@ strong {
   color: white;
   border: 1px solid;
   padding: 20px;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 50px;
-          flex: 0 1 50px;
+  width: 220px;
   white-space: nowrap;
   font-family: "Lora", serif;
 }
@@ -736,6 +777,10 @@ td {
   border-radius: 20px;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.color {
+  color: rgb(142, 0, 0);
 }
 
 td:first-child {
