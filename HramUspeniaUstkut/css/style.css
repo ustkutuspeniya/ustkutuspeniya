@@ -190,7 +190,7 @@ body header .view .opacyti-body .list-submenu_5 {
 }
 body header .view .opacyti-body .cerch-name {
   text-align: center;
-  font-size: 6rem;
+  font-size: clamp(40px, 5vw, 90px);
   font-family: "Cormorant Infant", serif;
   color: rgb(255, 255, 255);
   font-weight: bold;
@@ -198,9 +198,6 @@ body header .view .opacyti-body .cerch-name {
 }
 
 @media (max-width: 992px) {
-  .body header .view .opacyti-body .cerch-name {
-    font-size: 3rem;
-  }
   .body header .container-nav .container-width .logo {
     position: relative;
     z-index: 10;
@@ -306,11 +303,6 @@ body header .view .opacyti-body .cerch-name {
     margin-top: 106px;
     top: 0;
     border-top: blue 1px;
-  }
-}
-@media (max-width: 480px) {
-  body header .view .opacyti-body .cerch-name {
-    font-size: 50px;
   }
 }
 .page-footer .container-width .page-footer-content {
@@ -443,7 +435,7 @@ main .container-charity {
 
 .name-clergy {
   margin-top: 40px;
-  font-size: 25px;
+  font-size: clamp(22px, 5vw, 28px);
   text-transform: uppercase;
   font-weight: bold;
   color: #55adbd;
@@ -2014,7 +2006,7 @@ swiper-container .swiper-notification {
 }
 
 .ceremonies-list h3 {
-  font-size: xx-large;
+  font-size: clamp(22px, 5vw, 33px);
   padding-bottom: 50px;
 }
 .ceremonies-list .block-sacrament {
@@ -2450,7 +2442,7 @@ body .backgroand-syte .opacyti-body main .container-image-history_2:hover {
 }
 
 .body-header {
-  font-size: 40px;
+  font-size: clamp(35px, 5vw, 43px);
   font-family: "Lora", serif;
   margin-top: 100px;
 }
