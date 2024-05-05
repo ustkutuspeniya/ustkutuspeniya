@@ -658,9 +658,6 @@ strong {
   -webkit-animation: view-opacity-timetable 2.5s forwards;
           animation: view-opacity-timetable 2.5s forwards;
 }
-.view.promo_2 .opacyti-body .container-width .cerch-name {
-  visibility: hidden;
-}
 
 @-webkit-keyframes view-opacity-timetable {
   0% {
@@ -687,9 +684,6 @@ strong {
   opacity: 0;
   -webkit-animation: view-opacity-live-cerch 2.5s forwards;
           animation: view-opacity-live-cerch 2.5s forwards;
-}
-.view.promo_3 .opacyti-body .container-width .cerch-name {
-  visibility: hidden;
 }
 
 @-webkit-keyframes view-opacity-live-cerch {
