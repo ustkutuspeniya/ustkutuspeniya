@@ -163,7 +163,7 @@ body header .container-nav-back {
   background-color: #5a6586;
 }
 body header .view {
-  background-image: url("../img/Promo-backgroand.webp");
+  background-image: url("../img/Promo-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -778,36 +778,36 @@ td:nth-child(2) {
   width: 105px;
 }
 
-.backgroand-timetable .opacyti-body {
+.background-timetable .opacyti-body {
   margin: 0 auto;
   width: 100%;
   text-align: center;
 }
 
-.backgroand-syte-timetable {
+.background-site-timetable {
   background-image: url(../img/background-timetable.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
-.backgroand-syte-timetable .opacyti-body-timetable {
+.background-site-timetable .opacyti-body-timetable {
   background: rgba(38, 47, 75, 0.4);
 }
-.backgroand-syte-timetable .opacyti-body-timetable .container-width-timetable .timetable {
+.background-site-timetable .opacyti-body-timetable .container-width-timetable .timetable {
   padding-top: 150px;
 }
-.backgroand-syte-timetable .opacyti-body-timetable .container-width-timetable .timetable .header {
+.background-site-timetable .opacyti-body-timetable .container-width-timetable .timetable .header {
   font-family: "Montserrat", sans-serif;
   padding-top: 50px;
   font-size: 34px;
   color: white;
   text-align: center;
 }
-.backgroand-syte-timetable .opacyti-body-timetable .container-width-timetable .timetable .lorem {
+.background-site-timetable .opacyti-body-timetable .container-width-timetable .timetable .lorem {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.backgroand-syte-timetable .opacyti-body-timetable .container-width-timetable .timetable .lorem .table-timetable {
+.background-site-timetable .opacyti-body-timetable .container-width-timetable .timetable .lorem .table-timetable {
   position: relative;
   background-color: antiquewhite;
   opacity: 0.9;
@@ -2147,30 +2147,30 @@ body {
   line-height: 2.5;
   text-align: left;
 }
-body .backgroand-syte {
+body .background-site {
   padding-top: 100px;
 }
-body .backgroand-syte .opacyti-body {
+body .background-site .opacyti-body {
   margin: 0 auto;
   width: 100%;
   background: rgba(255, 255, 255, 0.5);
   text-align: center;
 }
-body .backgroand-syte .opacyti-body main {
+body .background-site .opacyti-body main {
   position: relative;
 }
-body .backgroand-syte .opacyti-body main .container-icon {
+body .background-site .opacyti-body main .container-icon {
   margin-top: 50px;
   position: relative;
   max-block-size: 500px;
   margin-bottom: 100px;
   overflow: hidden;
 }
-body .backgroand-syte .opacyti-body main .container-icon .icon {
+body .background-site .opacyti-body main .container-icon .icon {
   width: 100%;
   margin: auto;
 }
-body .backgroand-syte .opacyti-body main .holy {
+body .background-site .opacyti-body main .holy {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2182,7 +2182,7 @@ body .backgroand-syte .opacyti-body main .holy {
   max-height: 630px;
   overflow: hidden;
 }
-body .backgroand-syte .opacyti-body main .holy .gates-1 {
+body .background-site .opacyti-body main .holy .gates-1 {
   content: url("../img/Rez/Hram_1.jpg");
   width: 33%;
   padding: 2px 2px 2px 2px;
@@ -2190,7 +2190,7 @@ body .backgroand-syte .opacyti-body main .holy .gates-1 {
   margin-top: -200px;
   height: 100%;
 }
-body .backgroand-syte .opacyti-body main .holy .gates-2 {
+body .background-site .opacyti-body main .holy .gates-2 {
   content: url("../img/Rez/Hram_2.jpg");
   width: 33%;
   padding: 2px;
@@ -2198,7 +2198,7 @@ body .backgroand-syte .opacyti-body main .holy .gates-2 {
   margin-top: -200px;
   height: 100%;
 }
-body .backgroand-syte .opacyti-body main .holy .gates-3 {
+body .background-site .opacyti-body main .holy .gates-3 {
   content: url("../img/Rez/Hram_3.jpg");
   width: 33%;
   padding: 2px 2px 0 2px;
@@ -2206,7 +2206,7 @@ body .backgroand-syte .opacyti-body main .holy .gates-3 {
   margin-top: -200px;
   height: 100%;
 }
-body .backgroand-syte .opacyti-body main .lorem {
+body .background-site .opacyti-body main .lorem {
   padding-left: 10px;
   padding-right: 10px;
   font-size: x-large;
@@ -2214,43 +2214,43 @@ body .backgroand-syte .opacyti-body main .lorem {
   padding-bottom: 100px;
   text-align: justify;
 }
-body .backgroand-syte .opacyti-body main .lorem p {
+body .background-site .opacyti-body main .lorem p {
   text-indent: 2em;
   margin-top: 1em;
   margin-bottom: 1em;
 }
-body .backgroand-syte .opacyti-body main .lorem-center {
+body .background-site .opacyti-body main .lorem-center {
   font-size: x-large;
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
 }
-body .backgroand-syte .opacyti-body main .lorem-center p {
+body .background-site .opacyti-body main .lorem-center p {
   text-indent: 2em;
   margin-top: 1em;
   margin-bottom: 1em;
 }
-body .backgroand-syte .opacyti-body main .container-image-history_1 {
+body .background-site .opacyti-body main .container-image-history_1 {
   position: absolute;
   width: 100%;
   padding-top: 100px;
   opacity: 20%;
 }
-body .backgroand-syte .opacyti-body main .container-image-history_1 .image-history_1 {
+body .background-site .opacyti-body main .container-image-history_1 .image-history_1 {
   position: absolute;
   left: 50px;
   max-width: 20%;
   -webkit-transform: rotate(-10deg);
           transform: rotate(-10deg);
 }
-body .backgroand-syte .opacyti-body main .container-image-history_2 {
+body .background-site .opacyti-body main .container-image-history_2 {
   position: absolute;
   width: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
   opacity: 20%;
 }
-body .backgroand-syte .opacyti-body main .container-image-history_2 .image-history_2 {
+body .background-site .opacyti-body main .container-image-history_2 .image-history_2 {
   position: absolute;
   max-width: 20%;
   -webkit-transform: rotate(11deg);
@@ -2258,8 +2258,8 @@ body .backgroand-syte .opacyti-body main .container-image-history_2 .image-histo
   right: 50px;
   bottom: -850px;
 }
-body .backgroand-syte .opacyti-body main .container-image-history_1:hover,
-body .backgroand-syte .opacyti-body main .container-image-history_2:hover {
+body .background-site .opacyti-body main .container-image-history_1:hover,
+body .background-site .opacyti-body main .container-image-history_2:hover {
   opacity: 100%;
   -webkit-animation: view-opacity-container-image-history_1 1.5s forwards;
           animation: view-opacity-container-image-history_1 1.5s forwards;
@@ -2290,26 +2290,26 @@ body .backgroand-syte .opacyti-body main .container-image-history_2:hover {
     margin-top: calc(1000px - var(--swiper-navigation-size) / 2);
     padding-top: 100px;
   }
-  body .backgroand-syte .opacyti-body main .container-image-history_1 .image-history_1 {
+  body .background-site .opacyti-body main .container-image-history_1 .image-history_1 {
     left: 50px;
   }
-  body .backgroand-syte .opacyti-body main .container-image-history_2 .image-history_2 {
+  body .background-site .opacyti-body main .container-image-history_2 .image-history_2 {
     top: 1050px;
   }
-  body .backgroand-syte .opacyti-body main .holy {
+  body .background-site .opacyti-body main .holy {
     display: none;
   }
-  body .backgroand-syte .opacyti-body main .container-width {
+  body .background-site .opacyti-body main .container-width {
     max-width: 970px;
     margin: 0px auto;
     padding: 0 10px;
   }
-  body .backgroand-syte .opacyti-body main .container-width .logo-link-back-to-pravbratsk {
+  body .background-site .opacyti-body main .container-width .logo-link-back-to-pravbratsk {
     margin: 95px 0 0 0;
     padding-right: 30px;
     padding-left: 50px;
   }
-  body .backgroand-syte .opacyti-body main .map {
+  body .background-site .opacyti-body main .map {
     max-width: 1000px;
     min-width: 420px;
     max-height: 700px;
@@ -2330,18 +2330,18 @@ body .backgroand-syte .opacyti-body main .container-image-history_2:hover {
     width: calc(var(--swiper-navigation-size) / 44 * 1);
     padding-top: 100px;
   }
-  body .backgroand-syte .opacyti-body main .container-image-history_1 .image-history_1 {
+  body .background-site .opacyti-body main .container-image-history_1 .image-history_1 {
     left: 50px;
     max-width: 29%;
   }
-  body .backgroand-syte .opacyti-body main .container-image-history_2 .image-history_2 {
+  body .background-site .opacyti-body main .container-image-history_2 .image-history_2 {
     max-width: 29%;
     top: 1250px;
   }
-  body .backgroand-syte .opacyti-body main .body.lock {
+  body .background-site .opacyti-body main .body.lock {
     overflow: hidden;
   }
-  body .backgroand-syte .opacyti-body main .map {
+  body .background-site .opacyti-body main .map {
     max-width: 700px;
     min-width: 420px;
     max-height: 700px;
@@ -2362,15 +2362,15 @@ body .backgroand-syte .opacyti-body main .container-image-history_2:hover {
   .container-width .swiper-button-prev {
     display: none;
   }
-  body .backgroand-syte .opacyti-body main .container-image-history_1 .image-history_1 {
+  body .background-site .opacyti-body main .container-image-history_1 .image-history_1 {
     left: 50px;
     max-width: 29%;
   }
-  body .backgroand-syte .opacyti-body main .container-image-history_2 .image-history_2 {
+  body .background-site .opacyti-body main .container-image-history_2 .image-history_2 {
     max-width: 29%;
     top: 1700px;
   }
-  body .backgroand-syte .opacyti-body main .map {
+  body .background-site .opacyti-body main .map {
     max-width: 500;
     min-width: 420px;
     max-height: 700px;
@@ -2378,31 +2378,31 @@ body .backgroand-syte .opacyti-body main .container-image-history_2:hover {
     width: 500px;
     height: 500px;
   }
-  body .backgroand-syte .opacyti-body main .page-footer-section {
+  body .background-site .opacyti-body main .page-footer-section {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  body .backgroand-syte .opacyti-body main .page-footer-menu {
+  body .background-site .opacyti-body main .page-footer-menu {
     margin: 0 2rem 1.5rem;
   }
 }
 @media (max-width: 480px) {
-  body .backgroand-syte .opacyti-body main .lorem {
+  body .background-site .opacyti-body main .lorem {
     font-size: large;
     line-height: 2;
   }
-  body .backgroand-syte .opacyti-body main .container-image-history_1 .image-history_1 {
+  body .background-site .opacyti-body main .container-image-history_1 .image-history_1 {
     left: 20px;
     max-width: 40%;
   }
-  body .backgroand-syte .opacyti-body main .container-image-history_2 .image-history_2 {
+  body .background-site .opacyti-body main .container-image-history_2 .image-history_2 {
     max-width: 40%;
     top: 1300px;
     right: 20px;
   }
-  body .backgroand-syte .opacyti-body main .map {
+  body .background-site .opacyti-body main .map {
     max-width: 300px;
     min-width: 250px;
     max-height: 250px;
