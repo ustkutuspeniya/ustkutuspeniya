@@ -770,15 +770,6 @@ td {
   color: rgb(142, 0, 0);
 }
 
-td:first-child {
-  text-align: center;
-  width: 10px;
-}
-
-td:nth-child(2) {
-  width: 105px;
-}
-
 .background-timetable .opacyti-body {
   margin: 0 auto;
   width: 100%;
